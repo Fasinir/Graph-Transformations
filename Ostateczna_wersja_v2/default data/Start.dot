@@ -1,0 +1,8 @@
+graph Start
+{
+    0 [label=A];
+    1 [label=B];
+    2 [label=C];
+    0--1--2;
+    2--0;
+}

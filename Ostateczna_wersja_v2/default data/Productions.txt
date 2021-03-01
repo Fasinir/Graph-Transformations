@@ -1,0 +1,211 @@
+1
+#
+A
+#
+graph RHS_1 {
+1 [label=A];
+2 [label=A];
+3 [label=A];
+1 -- 2;
+2 -- 3;
+3 -- 1;
+}
+#
+A A
+B -
+C -
+a A
+b -
+c -
+#
+
+2
+#
+A
+#
+graph RHS_2 {
+1 -- 2;
+2 -- 3;
+3 -- 1;
+1 [label=C];
+2 [label=B];
+3 [label=B];
+}
+#
+A -
+B B
+C C
+a -
+b B
+c C
+#
+
+3
+#
+A
+#
+graph RHS_3 {
+1 -- 2;
+2 -- 3;
+3 -- 1;
+1 [label=A];
+2 [label=B];
+3 [label=C];
+}
+#
+A A
+B B
+C C
+a A
+b B
+c C
+#
+
+4
+#
+A
+#
+graph RHS_4 {
+1 [label=a];
+}
+#
+A -
+B a
+C a
+a -
+b a
+c a
+#
+5
+#
+B
+#
+graph RHS_5 {
+1 [label=b];
+}
+#
+A b
+B -
+C b
+a b
+b -
+c b
+#
+6
+#
+C
+#
+graph RHS_6 {
+1 [label=c];
+}
+#
+A c
+B c
+C -
+a c
+b c
+c -
+#
+7
+#
+A
+#
+graph RHS_7 {
+1 -- 2;
+1 [label=B];
+2 [label=A];
+}
+#
+A B
+B A
+C -
+a B
+b A
+c -
+#
+8
+#
+A
+#
+graph RHS_8 {
+1 -- 2;
+1 [label=C];
+2 [label=A];
+}
+#
+A C
+B -
+C A
+a C
+b -
+c A
+#
+9
+#
+B
+#
+graph RHS_9 {
+1 -- 2;
+1 [label=A];
+2 [label=B];
+}
+#
+A B
+B A
+C -
+a B
+b A
+c -
+#
+10
+#
+B
+#
+graph RHS_10 {
+1 -- 2;
+1 [label=C];
+2 [label=B];
+}
+#
+A -
+B C
+C B
+a -
+b C
+c B
+#
+11
+#
+C
+#
+graph RHS_11 {
+1 -- 2;
+1 [label=A];
+2 [label=C];
+}
+#
+A C
+B -
+C A
+a C
+b -
+c A
+#
+
+12
+#
+C
+#
+graph RHS_12 {
+1 -- 2;
+1 [label=B];
+2 [label=C];
+}
+#
+A -
+B C
+C B
+a -
+b C
+c B
+#
