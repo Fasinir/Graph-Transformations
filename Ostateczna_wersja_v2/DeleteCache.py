@@ -1,5 +1,5 @@
 def DeleteCache():
-    import os, re, os.path
+    import os.path
     mypath = "cache"
     for root, dirs, files in os.walk(mypath):
         for file in files:
